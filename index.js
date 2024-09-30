@@ -28,7 +28,6 @@ app.use("/attendance", employeeAttendanceRoutes);
 app.use(notFound);
 app.use(errorHandler);
 
-// start the server
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}.`);
 });
